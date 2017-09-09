@@ -6,6 +6,8 @@ python:
 env:
   - SERVER="1.2.3.4"
 
+install: echo "do nothing"
+
 addons:
   ssh_known_hosts: $SERVER
 
