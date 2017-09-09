@@ -1,0 +1,11 @@
+language: python
+
+python:
+  - "3.6"
+
+env:
+  - SERVER="1.2.3.4"
+
+addons:
+  ssh_known_hosts: $SERVER
+
